@@ -155,11 +155,9 @@ body > nav > li > a{
     #carouselExampleIndicators > ol{
         bottom: 10%;
     }
-    #navbarNav{
-        height: 100vh;
-    }
     #navbarNav > ul{
         height: 100vh;
+        background: #000;
         text-align: center;
     }
 
