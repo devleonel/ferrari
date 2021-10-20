@@ -153,6 +153,10 @@ body > nav > li > a{
     body > nav > li{
         display: none;
     }
+    #carouselExampleIndicators > div > div > img{
+        height: 100vh;
+        object-fit: cover;
+    }
 
 }
 
