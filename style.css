@@ -155,3 +155,13 @@ body > nav > li > a{
     }
 
 }
+
+@media (max-width: 800px){
+    body > nav > img{
+        width: 100px;
+    }
+    body > nav > button > img{
+        width: 35px;
+        height: 35px;
+    }
+}
