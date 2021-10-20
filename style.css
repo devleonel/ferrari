@@ -22,7 +22,7 @@
 
 /* Navbar */
 body > nav{
-    background: transparent !important;
+    background: transparent;
     width: 100%;
     z-index: 2;
     position: fixed !important;
@@ -141,11 +141,6 @@ body > nav > li > a{
         justify-content: flex-start !important;
     }
 
-
-    body > nav:active{
-        background: #fff !important;
-    }
-
     body > nav > button{
         display: initial;
     }
@@ -156,6 +151,16 @@ body > nav > li > a{
     #carouselExampleIndicators > div > div > img{
         height: 100vh;
         object-fit: cover;
+    }
+    #carouselExampleIndicators > ol{
+        bottom: 10%;
+    }
+    #navbarNav{
+        height: 100vh;
+    }
+    #navbarNav > ul{
+        height: 100vh;
+        text-align: center;
     }
 
 }
