@@ -116,7 +116,7 @@ body > nav > li > a{
     line-height: 80px;
 }
 
-#carouselExampleIndicators > div > div > div > a:hover{
+#carouselExampleIndicators > div > div > div > div > a:hover{
     background: #fff;
     color: #000;
 }
@@ -209,6 +209,12 @@ body > nav > li > a{
     background: rgba(0, 0, 0, 0.75);
     width: 100%;
     padding: 40px 30px;
+    transition: 2s;
+    opacity: 1;
+    }
+
+    #carouselExampleIndicators > div > div.carousel-item.active > div > div:hover{
+        opacity: 0.5;
     }
 
     #carouselExampleIndicators > div > div > div > div > h4{
