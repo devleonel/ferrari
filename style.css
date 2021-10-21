@@ -213,20 +213,21 @@ body > nav > li > a{
     }
 
     #carouselExampleIndicators > div > div.carousel-item.active > div > div::after{
-        opacity: 0.5;
+        opacity: 0;
     }
 
     #carouselExampleIndicators > div > div > div > div > h4{
         font-size: 45px;
+        transition: 3s;
+        color: #fff;
     }
 
     #carouselExampleIndicators > div > div > div > div > p{
         font-size: 20px;
     }
-
+    
     #carouselExampleIndicators > div > div > div > div > h5{
         font-size: 15px;
     }
-
 
 }
