@@ -230,6 +230,18 @@ body > nav > li > a{
         font-size: 15px;
     }
 
+    #carouselExampleIndicators > div > div:nth-child(1) > img{
+        content:url(img/portada\ 1\ -\ mobile.jpg);
+    }
+
+    #carouselExampleIndicators > div > div:nth-child(2) > img{
+        content:url(img/portada\ 1\ -\ mobile.jpg);
+    }
+
+    #carouselExampleIndicators > div > div:nth-child(3) > img{
+        content:url(img/portada\ 2\ -\ mobile.jpg);
+    }
+
 }
 
 
