@@ -202,18 +202,17 @@ body > nav > li > a{
         display: flex !important;
         flex-direction: column;
         justify-content: center;
-        align-items: center;
     }
 
     #carouselExampleIndicators > div > div.carousel-item.active > div > div{
     background: rgba(0, 0, 0, 0.75);
     width: 100%;
     padding: 40px 30px;
-    transition: 2s;
+    transition-duration: 3s;
     opacity: 1;
     }
 
-    #carouselExampleIndicators > div > div.carousel-item.active > div > div:hover{
+    #carouselExampleIndicators > div > div.carousel-item.active > div > div::after{
         opacity: 0.5;
     }
 
