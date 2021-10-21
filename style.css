@@ -208,7 +208,19 @@ body > nav > li > a{
     #carouselExampleIndicators > div > div.carousel-item.active > div > div{
     background: rgba(0, 0, 0, 0.75);
     width: 100%;
-    padding: 40px 70px;
+    padding: 40px 30px;
+    }
+
+    #carouselExampleIndicators > div > div > div > div > h4{
+        font-size: 45px;
+    }
+
+    #carouselExampleIndicators > div > div > div > div > p{
+        font-size: 20px;
+    }
+
+    #carouselExampleIndicators > div > div > div > div > h5{
+        font-size: 15px;
     }
 
 
