@@ -1,0 +1,230 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@300;400;500;700;900&display=swap');
+
+@font-face{
+    font-family: "Regular";
+    src: url(../fuente/SF-Pro-Display-Regular.otf);
+}
+
+@font-face{
+    font-family: "Black";
+    src: url(../fuente/SF-Pro-Display-Black.otf);
+}
+
+@font-face{
+    font-family: "Medium";
+    src: url(../fuente/SF-Pro-Display-Medium.otf);
+}
+
+@font-face{
+    font-family: "Light";
+    src: url(../fuente/SF-Pro-Display-Light.otf);
+}
+
+@font-face{
+    font-family: "Bold";
+    src: url(../fuente/SF-Pro-Display-Bold.otf);
+}
+
+/* Navbar */
+body > nav{
+    background: transparent;
+    width: 100%;
+    z-index: 2;
+    position: fixed !important;
+    top: 0;
+    justify-content: space-around !important;
+    align-items: baseline !important;
+    transition:0.75s ease;
+}
+
+body > nav.scrolled{
+    background:#000 !important;
+}
+
+body > nav > button{
+    display: none;
+}
+
+.navbar-expand-lg .navbar-collapse{
+    display: none !important;
+}
+
+body > nav > li{list-style: none;}
+
+body > nav > li > a{
+    padding: 0;
+    margin: 0;
+}
+
+body > nav > li > a{
+    font-family: 'Mulish', sans-serif;
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: 0.1em;
+    font-size: 12px;
+    color: #fff;
+}
+
+#navbarNav > ul > li > a{
+    color: #fff !important;
+    font-family: 'Mulish', sans-serif;
+    font-size: 40px;
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: 0.1em;
+    margin-bottom: 20px;
+}
+
+/* Slider */
+
+#carouselExampleIndicators > ol{
+    z-index: 1 !important;
+}
+
+#carouselExampleIndicators > div > div{
+    height: 100vh;
+}
+
+#carouselExampleIndicators > div > div > div{
+    position: absolute;
+    top: 20%;
+    left: 10%;
+    z-index: 10;
+    padding-top: 0;
+    padding-bottom: 0;
+    color: #fff;
+    text-align: start;
+}
+
+#carouselExampleIndicators > div > div > div > div > p{
+    font-size: 30px;
+    font-family: 'Mulish', sans-serif;
+    font-weight: 500;
+    margin-bottom: 10px !important;
+}
+
+#carouselExampleIndicators > div > div > div > div > h4{
+    font-size: 70px;
+    font-family: "Black";
+    letter-spacing: 0.04em;
+}
+
+#carouselExampleIndicators > div > div > div > div > h5{
+    font-family: "Light";
+    font-size: 25px;
+    letter-spacing: 0.05em;
+}
+
+#carouselExampleIndicators > div > div > div > div > a{
+    font-family: "Medium";
+    font-size: 15px;
+    border: 4px solid #fff;
+    border-radius: 20px;
+    padding: 10px 20px;
+    color: #fff;
+    text-decoration: none;
+    transition: 0.3s;
+    line-height: 80px;
+}
+
+#carouselExampleIndicators > div > div > div > div > a:hover{
+    background: #fff;
+    color: #000;
+}
+
+#carouselExampleIndicators > ol > li{
+    background: transparent;
+    border: 4px solid #fff;
+    height: 20px;
+    width: 60px;
+}
+
+#carouselExampleIndicators > ol > li.active{
+    background: #fff;
+}
+
+/* Gallery img */
+
+body > div.col-sm-12.d-flex > div{
+    padding: 0;
+}
+
+body > div.col-sm-12.d-flex{
+    padding: 0;
+}
+body > div.col-sm-12.d-flex > div > div{
+    border: none;
+}
+
+body > div.col-sm-12.d-flex > div:nth-child(1) > div > div{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+}
+
+body > div.col-sm-12.d-flex > div > div > div > p{
+    color: #fff;
+    font-size: 40px;
+    margin-bottom: 0;
+    font-family: "Bold";
+}
+
+
+body > div.col-sm-12.d-flex > div > div > div > h4{
+    font-size: 70px;
+    color: #fff;
+    margin-bottom: 0;
+    font-family: "Black";
+    letter-spacing: 0.05em;
+}
+
+body > div.col-sm-12.d-flex > div > div > div > a{
+    font-family: "Light";
+    color: #fff;
+    font-size: 30px;
+}
+
+body > div.col-sm-12.d-flex > div:nth-child(2) > div:nth-child(1) > div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+body > div.col-sm-12.d-flex > div:nth-child(2) > div:nth-child(2) > div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+body > div.col-sm-12.d-flex > div > div > div{
+    background: rgba(0, 0, 0, 0.3);
+}
+
+body > div.col-sm-12.d-flex > div:nth-child(1) > div > img{
+    max-height: 600px;
+}
+
+body > div.col-sm-12.d-flex > div:nth-child(2) > div:nth-child(2) > img{
+    max-height: 300px;
+}
+
+body > div.col-sm-12.d-flex > div:nth-child(2) > div:nth-child(1) > img{
+    max-height: 300px;
+}
+
+
+
+/* Preloader */
+
+    #preloader{
+        width: 100%;
+        height: 100vh;
+        background: #000 url(../img/preloader.gif) no-repeat center center;
+        background-size: 35%;
+        position: fixed;
+        z-index: 999;
+        
+}

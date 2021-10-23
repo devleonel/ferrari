@@ -1,0 +1,105 @@
+/* Responsive  Slider y Navbar*/
+
+@media (min-width: 800px){
+    body > nav > img{
+        display: none;
+    }
+}
+
+@media (max-width: 800px) {
+
+    .collapse.show{
+        display: block !important;
+    }
+
+    body > nav{
+        justify-content: flex-start !important;
+    }
+
+    body > nav > button{
+        display: initial;
+        position: absolute;
+        margin-top: 20px;
+    }
+
+    body > nav > li{
+        display: none;
+    }
+    #carouselExampleIndicators > div > div > img{
+        height: 100vh;
+        object-fit: cover;
+    }
+    #carouselExampleIndicators > ol{
+        bottom: 10%;
+    }
+    #navbarNav > ul{
+        height: 100vh;
+        background: #000;
+        text-align: center;
+        position: absolute;
+        width: 100%;
+        top: 0;
+        right: 0;
+        z-index: -1;
+        left: 0;
+        bottom: 0;
+        display: flex;
+        justify-content: center;
+    }
+    body > nav > img{
+        width: 140px;
+        margin-top: 26px !important;
+    }
+    body > nav > button > img{
+        width: 35px;
+        height: 35px;
+    }
+    #carouselExampleIndicators > div > div > div{
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        z-index: 10;
+        padding-top: 0;
+        padding-bottom: 0;
+        color: #fff;
+        background: linear-gradient(180deg, #000000 0%, rgba(0, 0, 0, 0) 30.6%);
+        display: flex !important;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    #carouselExampleIndicators > div > div.carousel-item.active > div > div{
+    background: rgba(0, 0, 0, 0.75);
+    width: 100%;
+    padding: 30px 30px;
+    transition-duration: 3s;
+    opacity: 1;
+    }
+
+    #carouselExampleIndicators > div > div.carousel-item.active > div > div::after{
+        opacity: 0;
+    }
+
+    #carouselExampleIndicators > div > div > div > div > h4{
+        font-size: 45px;
+        color: #fff;
+        margin-left: 10px;
+    }
+
+    #carouselExampleIndicators > div > div > div > div > p{
+        font-size: 20px;
+        margin-left: 10px;
+    }
+    
+    #carouselExampleIndicators > div > div > div > div > h5{
+        font-size: 12px;
+        margin-left: 10px;
+    }
+
+    #carouselExampleIndicators > div > div:nth-child(1) > img{
+        content:url(../img/portada1mobile.jpg);
+    }
+
+}
