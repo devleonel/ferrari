@@ -23,15 +23,15 @@
 @media (max-width: 580px){
    
     body > div.col-sm-12.d-flex > div:nth-child(1) > div > div > h4{
-        font-size: 50px;
+        font-size: 30px;
     }
 
     body > div.col-sm-12.d-flex > div:nth-child(1) > div > div > p{
-        font-size: 30px;
+        font-size: 20px;
     }
 
     body > div.col-sm-12.d-flex > div:nth-child(1) > div > div > a{
-        font-size: 30px;
+        font-size: 20px;
     }
 
     body > div.col-sm-12.d-flex > div:nth-child(2) > div:nth-child(1) > div{
