@@ -20,6 +20,11 @@
     src: url(fuente/SF-Pro-Display-Light.otf);
 }
 
+@font-face{
+    font-family: "Bold";
+    src: url(fuente/SF-Pro-Display-Bold.otf);
+}
+
 /* Navbar */
 body > nav{
     background: transparent;
@@ -29,6 +34,11 @@ body > nav{
     top: 0;
     justify-content: space-around !important;
     align-items: baseline !important;
+    transition:0.75s ease;
+}
+
+body > nav.scrolled{
+    background:#000 !important;
 }
 
 body > nav > button{
@@ -65,7 +75,7 @@ body > nav > li > a{
     margin-bottom: 20px;
 }
 
-/* Slide */
+/* Slider */
 
 #carouselExampleIndicators > ol{
     z-index: 1 !important;
@@ -133,7 +143,53 @@ body > nav > li > a{
     background: #fff;
 }
 
-/* Responsive */
+/* Gallery img */
+
+body > div.col-sm-12.d-flex > div{
+    padding: 0;
+}
+
+body > div.col-sm-12.d-flex{
+    padding: 0;
+}
+body > div.col-sm-12.d-flex > div > div{
+    border: none;
+}
+
+body > div.col-sm-12.d-flex > div:nth-child(1) > div > div{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+}
+
+body > div.col-sm-12.d-flex > div:nth-child(1) > div > div > p{
+    color: #fff;
+    font-size: 40px;
+    margin-bottom: 0;
+    font-family: "Bold";
+}
+
+
+body > div.col-sm-12.d-flex > div:nth-child(1) > div > div > h4{
+    font-size: 70px;
+    color: #fff;
+    margin-bottom: 0;
+    font-family: "Black";
+    letter-spacing: 0.05em;
+}
+
+body > div.col-sm-12.d-flex > div:nth-child(1) > div > div > a{
+    font-family: "Light";
+    color: #fff;
+    font-size: 30px;
+}
+
+body > div.col-sm-12.d-flex > div > div > div{
+    background: rgba(0, 0, 0, 0.3);
+}
+
+/* Responsive  Slider y Navbar*/
 
 @media (min-width: 800px){
     body > nav > img{
