@@ -90,6 +90,7 @@ body > nav > li > a{
     font-size: 30px;
     font-family: 'Mulish', sans-serif;
     font-weight: 500;
+    margin-bottom: 10px !important;
 }
 
 #carouselExampleIndicators > div > div > div > div > h4{
@@ -228,20 +229,12 @@ body > nav > li > a{
     }
     
     #carouselExampleIndicators > div > div > div > div > h5{
-        font-size: 15px;
+        font-size: 12px;
         margin-left: 10px;
     }
 
     #carouselExampleIndicators > div > div:nth-child(1) > img{
         content:url(img/portada1mobile.jpg);
-    }
-
-    #carouselExampleIndicators > div > div:nth-child(2) > img{
-        content:url(img/portada2mobile.jpg);
-    }
-
-    #carouselExampleIndicators > div > div:nth-child(3) > img{
-        content:url(img/portada3mobile.jpg);
     }
 
 }
