@@ -207,7 +207,7 @@ body > nav > li > a{
     #carouselExampleIndicators > div > div.carousel-item.active > div > div{
     background: rgba(0, 0, 0, 0.75);
     width: 100%;
-    padding: 40px 30px;
+    padding: 30px 30px;
     transition-duration: 3s;
     opacity: 1;
     }
@@ -218,16 +218,18 @@ body > nav > li > a{
 
     #carouselExampleIndicators > div > div > div > div > h4{
         font-size: 45px;
-        transition: 3s;
         color: #fff;
+        margin-left: 10px;
     }
 
     #carouselExampleIndicators > div > div > div > div > p{
         font-size: 20px;
+        margin-left: 10px;
     }
     
     #carouselExampleIndicators > div > div > div > div > h5{
         font-size: 15px;
+        margin-left: 10px;
     }
 
     #carouselExampleIndicators > div > div:nth-child(1) > img{
