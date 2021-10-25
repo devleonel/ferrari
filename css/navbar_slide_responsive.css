@@ -94,7 +94,7 @@
     }
     
     #carouselExampleIndicators > div > div > div > div > h5{
-        font-size: 12px;
+        font-size: 16px;
         margin-left: 10px;
     }
 
@@ -102,4 +102,8 @@
         content:url(../img/portada1mobile.jpg);
     }
 
+
+    #carouselExampleIndicators > div > div.carousel-item.active > video > source{
+        content:url(../img/portada3mobile.jpg);
+    }
 }
