@@ -228,3 +228,41 @@ body > div.col-sm-12.d-flex > div:nth-child(2) > div:nth-child(1) > img{
         z-index: 999;
         
 }
+
+/* Bitcoin */
+
+
+
+body > div.col-12.d-flex.justify-content-center.align-items-center.mt-5.mb-5 > div > h2{
+    font-size: 40px;
+    font-family: "Black";
+    letter-spacing: 0.04em;
+    color: #000;
+    text-transform: uppercase;
+}
+
+body > div.col-12.d-flex.justify-content-center.align-items-center.mt-5.mb-5 > div > p{
+    font-family: "Light";
+    font-size: 18px;
+}
+
+body > div.col-12.d-flex.justify-content-center.align-items-center.mt-5.mb-5 > div{
+    text-align: end;
+}
+
+body > div.col-12.d-flex.justify-content-center.align-items-center.mt-5.mb-5 > div > a{
+    font-family: "Medium";
+    font-size: 15px;
+    border: 4px solid #000;
+    border-radius: 20px;
+    padding: 10px 20px;
+    color: #000;
+    text-decoration: none;
+    transition: 0.3s;
+    line-height: 80px;
+}
+
+body > div.col-12.d-flex.justify-content-center.align-items-center.mt-5.mb-5 > div > a:hover{
+    background: #000;
+    color:#fff;
+}
