@@ -251,6 +251,87 @@ body > div.col-12.d-flex.justify-content-center.align-items-center.mt-5.mb-5 > d
     color:#fff;
 }
 
+/* Suscribete */
+
+body > div.col-12.d-flex.justify-content-center.align-items-center.pt-5.pb-5 > div > div{
+    display: flex;
+    align-items: self-end;
+    justify-content: space-evenly;
+}
+
+body > div.col-12.d-flex.justify-content-center.align-items-center.pt-5.pb-5 > div > div > div{
+    display: flex;
+    flex-direction: column;
+}
+
+#email{
+    width: 350px;
+    border: 2px solid #000;
+    border-radius: 25px;
+    padding: 10px 50px;
+}
+
+body > div.col-12.d-flex.justify-content-center.align-items-center.pt-5.pb-5 > div > div > a{
+    border-radius: 25px;
+    border: 2px solid #000;
+    padding: 10px 50px;
+    text-decoration: none;
+    font-family: "Medium";
+    color: #000;
+    transition: 0.3s;
+}
+
+body > div.col-12.d-flex.justify-content-center.align-items-center.pt-5.pb-5 > div > div > a:hover{
+    color: #fff;
+    background: #000;
+}
+
+body > div.col-12.d-flex.justify-content-center.align-items-center.pt-5.pb-5 > div > h3{
+    font-size: 35px;
+    font-family: "Medium";
+    margin-bottom: 25px;
+    color: #000;
+}
+
+body > div.col-12.d-flex.justify-content-center.align-items-center.pt-5.pb-5 > div > div > div > label{
+    font-family: 'Mulish', sans-serif;
+    font-weight: lighter;
+}
+
+
+/* Footer */
+
+body > footer{
+    background: #000;
+}
+
+body > footer > div{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+body > footer > div > hr{
+    width: 80%;
+    background: #404040;
+}
+
+body > footer > div > div.row.d-flex.text-center.justify-content-center.mb-md-0.mb-4 > div{
+    padding: 0;
+}
+
+body > footer > div > div.row.d-flex.text-center.justify-content-center.mb-md-0.mb-4 > div > p{
+    color: #868686;
+    font-family: "Medium";
+    margin-bottom: 35px;
+}
+
+body > footer > div > div.img_footer{
+    margin-top: 35px;
+}
+
+
 /* Preloader */
 
     #preloader{
